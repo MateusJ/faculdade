@@ -1,0 +1,31 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "cppbuild",
+			"label": "C/C++: g++.exe arquivo de build ativo",
+			"command": "D:\\Arquivos Programas\\msys2\\mingw64\\bin\\g++.exe",
+			"args": [
+				"-fdiagnostics-color=always",
+                "-g",
+                "-std=c++17",
+                "${fileDirname}/main.cpp",
+                "-o",
+                "${fileDirname}/main",
+                "-lgtest",
+                "-lpthread"
+			],
+			"options": {
+				"cwd": "${fileDirname}"
+			},
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"detail": "compilador: D:\\Arquivos Programas\\msys2\\mingw64\\bin\\g++.exe"
+		}
+	]
+}
