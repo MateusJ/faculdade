@@ -38,6 +38,7 @@ class MinhaListaEncadeada: public ListaEncadeadaAbstrata<T>
     virtual bool vazia() const{
          if(this->_tamanho>0){
              
+             
              return false;
 
          }
